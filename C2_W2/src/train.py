@@ -178,9 +178,9 @@ def configure_model():
         num_labels=len(classes),
         id2label={
             ### BEGIN SOLUTION - DO NOT delete this comment for grading purposes
-            None: None, # Replace all None
-            None: None, # Replace all None
-            None: None, # Replace all None
+            0: -1, # Replace all None
+            1: 0, # Replace all None
+            2: 1, # Replace all None
             ### END SOLUTION - DO NOT delete this comment for grading purposes
         },
         label2id={
